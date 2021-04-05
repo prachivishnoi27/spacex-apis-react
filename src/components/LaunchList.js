@@ -34,7 +34,6 @@ const LaunchList = () => {
 
   const renderList = () => {
     return launchList.map((launchpad) => {
-    //   console.log(launchpad);
       return (
         <div
           className="item"

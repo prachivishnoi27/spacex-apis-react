@@ -16,7 +16,7 @@ const Launch = () => {
         console.log(response.data);
         setLaunch(response.data);
       } catch (e) {
-        console.log("Cannot get launchPad");
+        console.log("Cannot get launch");
       }
     })();
   }, []);
